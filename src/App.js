@@ -13,6 +13,7 @@ import { ProjectDetailPage } from 'pages/ProjectDetailPage';
 import { DiscussProjectPage } from 'pages/DiscussProjectPage';
 import PrivacyPolicyPage from 'pages/PrivacyPolicyPage';
 import TermsAndConditionsPage from 'pages/TermsAndConditionsPage';
+import TradeLicensePage from 'pages/TradeLicensePage';
 
 import './assets/css/styles.css';
 
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/discuss-project" element={<DiscussProjectPage />} />
         <Route exact path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route exact path="/terms-and-conditions" element={<TermsAndConditionsPage />} />
+        <Route exact path="/trade-license" element={<TradeLicensePage />} />
         <Route path="**" element={<NotFoundPage />} />
       </Routes>
     </>

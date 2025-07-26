@@ -51,6 +51,14 @@ export default function Footer() {
             >
               নিয়ম ও শর্তাবলী
             </Button>
+            <span className="text-gray-400">|</span>
+            <Button
+              type="link"
+              href="/trade-license"
+              className="text-theme-blue hover:text-theme-purple transition-colors"
+            >
+              ট্রেড লাইসেন্স
+            </Button>
           </div>
           <p className="text-lg text-gray-400 font-light mb-2">
             Copyright  {new Date().getFullYear()}  - All rights reserved - Maryam Solutions
