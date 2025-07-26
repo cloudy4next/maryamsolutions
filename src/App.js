@@ -11,6 +11,8 @@ import NotFoundPage from 'pages/NotFoundPage';
 
 import { ProjectDetailPage } from 'pages/ProjectDetailPage';
 import { DiscussProjectPage } from 'pages/DiscussProjectPage';
+import PrivacyPolicyPage from 'pages/PrivacyPolicyPage';
+import TermsAndConditionsPage from 'pages/TermsAndConditionsPage';
 
 import './assets/css/styles.css';
 
@@ -22,6 +24,8 @@ function App() {
         <Route path="/project" element={<ProjectPage />} />
         <Route exact path="/project/:id" element={<ProjectDetailPage />} />
         <Route exact path="/discuss-project" element={<DiscussProjectPage />} />
+        <Route exact path="/privacy-policy" element={<PrivacyPolicyPage />} />
+        <Route exact path="/terms-and-conditions" element={<TermsAndConditionsPage />} />
         <Route path="**" element={<NotFoundPage />} />
       </Routes>
     </>
