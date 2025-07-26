@@ -32,7 +32,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="w-1/3 ml-40 sm:ml-0 mt-0">
+          <div className="w-1/3 mt-0 ml-16 mr-0 sm:ml-0 sm:mr-5">
             <h1 className="text-lg text-theme-blue pt-4 pb-2">
               Address
             </h1>
